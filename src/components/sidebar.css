@@ -1,0 +1,12 @@
+.sidebar-item:hover {
+  background-color: rgba(0, 128, 0, 0.1); /* Tono verde claro */
+}
+
+.sidebar-item.active {
+  background-color: rgba(
+    37,
+    145,
+    233,
+    0.192
+  ); /* Tono verde más oscuro cuando está activo */
+}
