@@ -1,4 +1,6 @@
-import { StrictMode } from "react";
+
+export {default as MainMenu} from "@/components/home";
+/* import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
 import Home from "@/components/home";
@@ -9,3 +11,4 @@ createRoot(document.getElementById("root")!).render(
     <Home></Home>
   </StrictMode>
 );
+ */
