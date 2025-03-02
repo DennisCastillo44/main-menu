@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Sun, Moon } from "lucide-react"; // Importa los iconos
-import { Button } from "@/components/ui/button";
+import { Button } from "../../components/ui/button";
 
 export const ThemeToggle = ({ iconClassName }: { iconClassName?: string }) => {
   const [darkMode, setDarkMode] = useState<boolean | null>(null);

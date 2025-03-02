@@ -1,4 +1,4 @@
-import TopOptions from "@/components/top-options";
+import TopOptions from "../components/top-options";
 import { Link } from "react-router";
 
 const NotFound = () => {

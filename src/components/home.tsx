@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { AppSidebar } from "@/components/app-sidebar";
+import { AppSidebar } from "../components/app-sidebar";
 import {
   Breadcrumb,
   BreadcrumbItem,
@@ -7,14 +7,14 @@ import {
   BreadcrumbList,
   BreadcrumbPage,
   BreadcrumbSeparator,
-} from "@/components/ui/breadcrumb";
-import { Separator } from "@/components/ui/separator";
+} from "../components/ui/breadcrumb";
+import { Separator } from "../components/ui/separator";
 import {
   SidebarInset,
   SidebarProvider,
   SidebarTrigger,
   SidebarMenuButton,
-} from "@/components/ui/sidebar";
+} from "../components/ui/sidebar";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -22,7 +22,7 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
+} from "../components/ui/dropdown-menu";
 import { ChevronsUpDown, LifeBuoy, Search, Bell } from "lucide-react";
 import { ThemeToggle } from "./molecules/theme-toggle";
 import { Outlet, useLocation } from "react-router-dom";

@@ -31,16 +31,16 @@ import {
 } from "lucide-react";
 
 // import { NavMain } from "@/components/nav-main";
-import { NavMain } from "@/components/organisms/nav-main";
-import { NavUser } from "@/components/organisms/nav-user";
-import { TeamSwitcher } from "@/components/team-switcher";
+import { NavMain } from "../components/organisms/nav-main";
+import { NavUser } from "../components/organisms/nav-user";
+import { TeamSwitcher } from "../components/team-switcher";
 import {
   Sidebar,
   SidebarContent,
   SidebarFooter,
   SidebarHeader,
   SidebarRail,
-} from "@/components/ui/sidebar";
+} from "../components/ui/sidebar";
 import "./sidebar.css";
 
 // This is sample data.
