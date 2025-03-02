@@ -132,8 +132,6 @@ export default function Page() {
             </div>
           </div>
         </header>
-        <Outlet></Outlet>
-        {/* <SearchMenu /> */}
       </SidebarInset>
     </SidebarProvider>
   );
